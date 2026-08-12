@@ -1,0 +1,57 @@
+[
+  {
+    "institution": "Universitas Sriwijaya",
+    "period": "Aug 2021 - Feb 2025",
+    "location": "South Sumatera, Indonesia",
+    "degree": "Bachelor of Informatics Engineering",
+    "gpa": "3.92 / 4.00",
+    "description": {
+      "en": [],
+      "id": []
+    }
+  },
+  {
+    "institution": "AWS Back-End Academy 2025",
+    "period": "May 2025 - Dec 2025",
+    "location": "Remote",
+    "degree": "Certificate in Back-End Developer Expert Dicoding",
+    "description": {
+      "en": [
+        "Built RESTful APIs using Node.js (Hapi) across multiple back-end projects.",
+        "Implemented JWT-based authentication, API documentation using Swagger, data validation with Joi, and clean, well-documented code following Clean Architecture principles.",
+        "Performed manual and automated API testing using Postman and applied CI/CD practices to maintain code quality and reliability.",
+        "Designed scalable and secure cloud architectures using AWS (EC2, RDS, S3, ElastiCache, Amazon MQ) with high availability, load balancing, and auto scaling.",
+        "Utilized efficient data structures and applied OOP, Functional Programming, and asynchronous JavaScript patterns."
+      ],
+      "id": [
+        "Membangun RESTful API menggunakan Node.js (Hapi) di beberapa proyek back-end.",
+        "Mengimplementasikan autentikasi berbasis JWT, dokumentasi API menggunakan Swagger, validasi data dengan Joi, dan kode yang bersih serta terdokumentasi dengan baik mengikuti prinsip Clean Architecture.",
+        "Melakukan pengujian API manual dan otomatis menggunakan Postman serta menerapkan praktik CI/CD untuk menjaga kualitas dan keandalan kode.",
+        "Merancang arsitektur cloud yang dapat diskalakan dan aman menggunakan AWS (EC2, RDS, S3, ElastiCache, Amazon MQ) dengan ketersediaan tinggi, penyeimbangan beban, dan penskalaan otomatis.",
+        "Memanfaatkan struktur data yang efisien dan menerapkan OOP, Pemrograman Fungsional, serta pola JavaScript asinkron."
+      ]
+    }
+  },
+  {
+    "institution": "Bangkit Academy by Google, GoTo, Traveloka",
+    "period": "Aug 2023 - Jan 2024",
+    "location": "Remote",
+    "degree": "Certificate in Mobile Developer Cohort",
+    "description": {
+      "en": [
+        "Develop our app for our team capstone project.",
+        "Know various approaches to testing applications, both unit testing using Test Double, and UI testing using Idling Resource.",
+        "Retrieve and search for web API data in JSON format and parse it.",
+        "Proven expertise in Android app development, including background threading, networking, architecture components, and testing.",
+        "Learn soft skills such as Growth Mindset and Power of Feedback, Time Management, Critical Thinking and Problem Solving, Adaptability and Resilience, Project Management, Professional Communication and Networking, Professional Branding and Interview Communication and English."
+      ],
+      "id": [
+        "Mengembangkan aplikasi untuk proyek capstone tim kami.",
+        "Mengetahui berbagai pendekatan pengujian aplikasi, baik pengujian unit menggunakan Test Double, maupun pengujian UI menggunakan Idling Resource.",
+        "Mengambil dan mencari data web API dalam format JSON dan mem-parsingnya.",
+        "Keahlian yang terbukti dalam pengembangan aplikasi Android, termasuk background threading, networking, komponen arsitektur, dan pengujian.",
+        "Mempelajari soft skill seperti Growth Mindset dan Power of Feedback, Manajemen Waktu, Berpikir Kritis dan Pemecahan Masalah, Kemampuan Beradaptasi dan Ketahanan, Manajemen Proyek, Komunikasi Profesional dan Jaringan, Personal Branding, serta Komunikasi Wawancara dan Bahasa Inggris."
+      ]
+    }
+  }
+]

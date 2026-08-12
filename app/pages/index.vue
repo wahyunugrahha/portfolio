@@ -127,18 +127,25 @@
       <header class="mb-8 max-w-2xl">
         <h2 class="text-3xl font-display font-semibold tracking-tight text-ink mb-4">{{ lang.educationTitle }}</h2>
       </header>
-      <div class="bg-paper-2 p-6 md:p-8 rounded-card border border-paper-2 hover:border-accent-cyan/30 transition-colors">
-        <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
-          <h3 class="text-2xl font-display font-semibold text-ink">Universitas Sriwijaya</h3>
-          <span class="text-sm font-medium text-ink-2 bg-paper px-4 py-1.5 rounded-full border border-paper-2 mt-3 md:mt-0 w-fit">Aug 2021 - Feb 2025</span>
-        </div>
-        <p class="text-ink-2 font-medium mb-3 flex items-center gap-2">
-          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-          South Sumatera, Indonesia
-        </p>
-        <p class="text-lg text-ink font-medium">Bachelor of Informatics Engineering</p>
-        <div class="mt-4 flex items-center gap-2">
-          <span class="bg-accent-cyan/10 text-accent-cyan font-bold px-3 py-1 rounded-md text-sm">GPA: 3.92 / 4.00</span>
+      <div class="grid grid-cols-1 gap-6">
+        <div v-for="(edu, i) in educations" :key="i" class="bg-paper-2 p-6 md:p-8 rounded-card border border-paper-2 hover:border-accent-cyan/30 transition-colors">
+          <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+            <h3 class="text-2xl font-display font-semibold text-ink">{{ edu.institution }}</h3>
+            <span class="text-sm font-medium text-ink-2 bg-paper px-4 py-1.5 rounded-full border border-paper-2 mt-3 md:mt-0 w-fit">{{ edu.period }}</span>
+          </div>
+          <p class="text-ink-2 font-medium mb-3 flex items-center gap-2">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+            {{ edu.location }}
+          </p>
+          <p class="text-lg text-ink font-medium">{{ edu.degree }}</p>
+          
+          <div v-if="edu.gpa" class="mt-4 flex items-center gap-2">
+            <span class="bg-accent-cyan/10 text-accent-cyan font-bold px-3 py-1 rounded-md text-sm">GPA: {{ edu.gpa }}</span>
+          </div>
+          
+          <ul v-if="edu.description && edu.description[locale] && edu.description[locale].length > 0" class="list-disc pl-5 text-ink-2 space-y-2 marker:text-accent-cyan mt-4">
+            <li v-for="(point, idx) in edu.description[locale]" :key="idx" class="leading-relaxed pl-1">{{ point }}</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -390,6 +397,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import projects from '~/data/projects.json'
 import organizations from '~/data/organizations.json'
 import experiences from '~/data/experiences.json'
+import educations from '~/data/educations.json'
 
 const { locale } = useLocale()
 const lang = computed(() => t[locale.value])
