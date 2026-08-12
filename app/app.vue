@@ -3,8 +3,8 @@
     <!-- N1 Nav: Wordmark + links + button -->
     <header class="w-full z-50 bg-paper border-b border-paper-2 animate-fade-in">
       <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
-        <NuxtLink to="/" class="text-xl font-bold font-display tracking-tight hover:text-accent-cyan transition-colors">
-          Wahyu.
+        <NuxtLink to="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <img src="/images/Logo.png" alt="Wahyu Nugraha Logo" class="h-8 w-auto" />
         </NuxtLink>
         
         <nav class="hidden md:flex items-center gap-8">

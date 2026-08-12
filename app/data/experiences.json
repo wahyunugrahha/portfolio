@@ -1,0 +1,54 @@
+[
+  {
+    "company": "PT. Selamat Jaya Persada",
+    "role": "IT Staff (Intern)",
+    "period": "Nov 2025 - Jun 2026",
+    "location": "Jakarta, Indonesia",
+    "tech": ["PHP", "Laravel", "PostgreSQL", "Figma", "GitHub", "VPS"],
+    "description": {
+      "en": [
+        "Developed and deployed 2 web-based systems (Attendance & KPI Monitoring) using PHP Laravel and PostgreSQL, supporting daily operations for internal teams.",
+        "Successfully digitized the attendance system, transitioning from manual fingerprint machines to a mobile-based system with GPS & photo verification, improving flexibility and reducing attendance fraud risk.",
+        "Transformed manual HRIS processes (non-payroll) into a fully digital system, reducing administrative workload by an estimated 60–80% and improving data accuracy and accessibility.",
+        "Designed intuitive UI/UX using Figma, resulting in faster user adoption and reduced training time for employees.",
+        "Deployed applications to a VPS with custom domain configuration, ensuring 24/7 system availability and accessibility across locations.",
+        "Managed version control and collaboration using GitHub, improving development efficiency and code maintainability."
+      ],
+      "id": [
+        "Mengembangkan dan menerapkan 2 sistem berbasis web (Kehadiran & Pemantauan KPI) menggunakan PHP Laravel dan PostgreSQL, mendukung operasional harian tim internal.",
+        "Berhasil mendigitalkan sistem kehadiran, beralih dari mesin sidik jari manual ke sistem berbasis seluler dengan GPS & verifikasi foto, meningkatkan fleksibilitas dan mengurangi risiko kecurangan kehadiran.",
+        "Mengubah proses SDM manual (non-penggajian) menjadi sistem digital penuh, mengurangi beban kerja administratif sekitar 60-80% dan meningkatkan akurasi dan aksesibilitas data.",
+        "Merancang UI/UX yang intuitif menggunakan Figma, menghasilkan adopsi pengguna yang lebih cepat dan mengurangi waktu pelatihan bagi karyawan.",
+        "Menerapkan aplikasi ke VPS dengan konfigurasi domain khusus, memastikan ketersediaan sistem 24/7 dan aksesibilitas di berbagai lokasi.",
+        "Mengelola kontrol versi dan kolaborasi menggunakan GitHub, meningkatkan efisiensi pengembangan dan pemeliharaan kode."
+      ]
+    }
+  },
+  {
+    "company": "Ween Studios",
+    "role": "Roblox Game Developer (Self-Employed)",
+    "period": "Aug 2025 - Present",
+    "location": "WFA",
+    "tech": ["Roblox Studio", "Luau", "DataStore", "UI/UX"],
+    "description": {
+      "en": [
+        "Engineered and launched three original Roblox games end-to-end as a solo developer, architecting gameplay systems, mechanics, and client-server structures using Roblox Studio (Advanced) and Luau.",
+        "Achieved significant growth milestones: the first game reached 200K+ visits, the second 250K+ visits (peak 1,500 concurrents), and the third surpassed 1.5M+ visits with 500+ average daily players (peak 7,000).",
+        "Built and managed core game systems including secure DataStore integration, inventory management, player progression, and robust quest/reward mechanics.",
+        "Designed and integrated end-to-end monetization architectures (Shop, Gamepasses, and Developer Products) aligned with Roblox API standards to maximize player retention and conversion.",
+        "Developed modern, clean UI/UX designs (utilizing glassmorphism aesthetics) and integrated 3D models, animations, and audio to enhance player immersion.",
+        "Proactively performed debugging, balancing, and advanced performance tuning, utilizing StreamingEnabled to guarantee stable framerates and optimal user experience.",
+        "Managed full live operations, handling deployment, publishing, and continuous post-release maintenance while iterating on gameplay based on player data and feedback."
+      ],
+      "id": [
+        "Merekayasa dan meluncurkan tiga game Roblox orisinal dari awal hingga akhir sebagai pengembang solo, merancang sistem gameplay, mekanik, dan struktur klien-server menggunakan Roblox Studio (Lanjutan) dan Luau.",
+        "Mencapai tonggak pertumbuhan yang signifikan: game pertama mencapai lebih dari 200 ribu kunjungan, kedua lebih dari 250 ribu kunjungan (puncak 1.500 pemain bersamaan), dan ketiga melampaui 1,5 juta kunjungan dengan rata-rata 500+ pemain harian (puncak 7.000).",
+        "Membangun dan mengelola sistem game inti termasuk integrasi DataStore yang aman, manajemen inventaris, perkembangan pemain, dan mekanik misi/hadiah yang kuat.",
+        "Merancang dan mengintegrasikan arsitektur monetisasi (Toko, Gamepass, dan Produk Pengembang) yang selaras dengan standar API Roblox untuk memaksimalkan retensi dan konversi pemain.",
+        "Mengembangkan desain UI/UX yang modern dan bersih (memanfaatkan estetika glassmorphism) dan mengintegrasikan model 3D, animasi, dan audio untuk meningkatkan pencelupan pemain.",
+        "Secara proaktif melakukan debugging, penyeimbangan, dan penyetelan kinerja tingkat lanjut, memanfaatkan StreamingEnabled untuk menjamin framerate yang stabil dan pengalaman pengguna yang optimal.",
+        "Mengelola operasi langsung secara penuh, menangani penyebaran, penerbitan, dan pemeliharaan pasca-rilis berkelanjutan sambil mengulangi gameplay berdasarkan data dan umpan balik pemain."
+      ]
+    }
+  }
+]
