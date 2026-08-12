@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bangkit",
+    "title": "Bangkit Academy: Mobile Development",
+    "issuer": "Google, GoTo, Traveloka",
+    "image": "/images/Bangkit.png"
+  },
+  {
+    "id": "aws",
+    "title": "AWS Back-End Developer Expert",
+    "issuer": "AWS Training and Certification",
+    "image": "/images/Aws.png"
+  },
+  {
+    "id": "kemnaker",
+    "title": "IT Staff Internship",
+    "issuer": "Selamat Jaya Persada (Kemnaker)",
+    "image": "/images/SJP.png"
+  },
+  {
+    "id": "tbi",
+    "title": "English for Business Communication",
+    "issuer": "The British Institute (TBI)",
+    "image": "/images/TBI.png"
+  }
+]

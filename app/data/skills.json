@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Frontend Frameworks & Libraries",
+    "icon": "🎨",
+    "skills": ["Vue.js", "React", "Angular", "Svelte", "Ant Design", "Uniapp"]
+  },
+  {
+    "category": "Backend & Services",
+    "icon": "🔧",
+    "skills": ["Spring Boot", "Node.js", "Go", "Python", "FastAPI", "NestJS"]
+  },
+  {
+    "category": "Databases",
+    "icon": "🗄️",
+    "skills": ["Redis", "MySQL", "PostgreSQL", "Oracle", "Elasticsearch"]
+  },
+  {
+    "category": "Architecture & Design",
+    "icon": "🏗️",
+    "skills": ["Domain-Driven Design", "CQRS", "Event Storming", "Clean Architecture", "Hexagonal Architecture"]
+  },
+  {
+    "category": "DevOps & Containers",
+    "icon": "☁️",
+    "skills": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "GitLab CI"]
+  },
+  {
+    "category": "Tools & Testing",
+    "icon": "🛠️",
+    "skills": ["Vite", "Webpack", "Playwright", "Pytest", "Selenium"]
+  }
+]

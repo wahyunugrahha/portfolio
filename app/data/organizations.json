@@ -1,0 +1,22 @@
+[
+  {
+    "organization": "BEM KM FASILKOM UNSRI",
+    "location": "South Sumatera, Indonesia",
+    "period": "Feb 2022 - Dec 2022",
+    "role": "Medinfo Staff - Multimedia",
+    "description": {
+      "en": "Cooperate with other staff in providing informative and interesting information through BEM KM Fasilkom Unsri social media. Also be in charge of design in several events held by BEM KM Fasilkom Unsri.",
+      "id": "Bekerja sama dengan staf lain dalam menyediakan informasi yang informatif dan menarik melalui media sosial BEM KM Fasilkom Unsri. Juga bertanggung jawab atas desain dalam beberapa acara yang diadakan oleh BEM KM Fasilkom Unsri."
+    }
+  },
+  {
+    "organization": "Google Developer Student Club Sriwijaya University",
+    "location": "Palembang, Indonesia",
+    "period": "Nov 2021 - Nov 2022",
+    "role": "Member Mobile Development",
+    "description": {
+      "en": "Contributed as Mobile Development Team Member. Developed mobile applications using Flutter Framework with Firebase backend.",
+      "id": "Berkontribusi sebagai Anggota Tim Pengembangan Mobile. Mengembangkan aplikasi mobile menggunakan framework Flutter dengan backend Firebase."
+    }
+  }
+]

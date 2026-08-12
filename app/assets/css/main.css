@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Hum theme tokens */
+    --color-paper: oklch(98% 0.01 90);
+    --color-paper-2: oklch(96% 0.02 90);
+    --color-ink: oklch(20% 0.02 280);
+    --color-ink-2: oklch(40% 0.02 280);
+    --color-accent-pear: oklch(85% 0.18 135);
+    --color-accent-cyan: oklch(80% 0.18 210);
+    --color-accent-coral: oklch(75% 0.24 30);
+    --color-shadow: oklch(50% 0.13 282 / 0.1);
+    
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  
+  :root.dark {
+    --color-paper: oklch(20% 0.02 280);
+    --color-paper-2: oklch(25% 0.02 280);
+    --color-ink: oklch(98% 0.01 90);
+    --color-ink-2: oklch(75% 0.01 90);
+    --color-shadow: oklch(0% 0 0 / 0.3);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip; /* mobile safety */
+  }
+
+  *, *::before, *::after {
+    @apply transition-colors duration-[400ms] ease-in-out;
+  }
+  
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    overflow-x: clip;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-ink;
+    font-style: normal !important; /* No italic headers */
+    overflow-wrap: anywhere;
+    min-width: 0;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    /* Removed for anti-slop rules, but keeping class empty to avoid breaking old markup before refactor */
+  }
+  
+  /* 8-state interactive helper classes for buttons */
+  .btn {
+    @apply inline-flex items-center justify-center font-semibold transition-all duration-300 rounded-pill px-6 py-3 cursor-pointer;
+  }
+  
+  .btn-primary {
+    @apply bg-ink text-paper hover:bg-ink-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+    /* Hum allows bouncy easing on primary CTA */
+    transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-[2px] hover:shadow-soft;
+  }
+}
+
+/* Icon Toggle Animations */
+.theme-fade-enter-active,
+.theme-fade-leave-active {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.theme-fade-enter-from {
+  opacity: 0;
+  transform: rotate(90deg) scale(0.5);
+}
+.theme-fade-leave-to {
+  opacity: 0;
+  transform: rotate(-90deg) scale(0.5);
+}
+
+/* Initial Load Animations */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }

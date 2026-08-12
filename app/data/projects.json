@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hris",
+    "title": "HRIS (Without Payroll)",
+    "description": {
+      "en": "A Human Resource Information System focused on employee data and management without the payroll module.\n\nThis is a project that has been deployed and is still running today at absenkusjp.com, which was my project during an internship.",
+      "id": "Sistem Informasi Sumber Daya Manusia (HRIS) yang difokuskan pada data dan manajemen karyawan tanpa modul penggajian.\n\nIni adalah project yang sudah dideploy dan terus berjalan hingga saat ini di absenkusjp.com yang dimana ini adalah project saya ketika intern."
+    },
+    "tech": ["PHP", "Blade", "Laravel"],
+    "category": "Web / Full Stack",
+    "github_url": "https://github.com/wahyunugrahha/hris-without-payroll",
+    "image": "/images/HRIS1.png",
+    "gallery": [
+      "/images/HRIS1.png",
+      "/images/HRIS2.png"
+    ]
+  },
+  {
+    "id": "kasir-tcoy",
+    "title": "Kasir TCOY",
+    "description": {
+      "en": "A Point of Sale (POS) System for managing inventory and transactions.",
+      "id": "Sistem Point of Sale (POS) untuk mengelola inventaris dan transaksi."
+    },
+    "tech": ["PHP"],
+    "category": "Web / Full Stack",
+    "github_url": "https://github.com/wahyunugrahha/kasir-tcoy",
+    "image": "/images/KasirTcuy.png"
+  },
+  {
+    "id": "mihu",
+    "title": "MIHU (May I Help U?)",
+    "description": {
+      "en": "Product Based Capstone for Bangkit 2023. An Android App connecting recruiters and workers, integrated with a Machine Learning model for categorization.",
+      "id": "Capstone Berbasis Produk untuk Bangkit 2023. Aplikasi Android yang menghubungkan perekrut dan pekerja, terintegrasi dengan model Machine Learning untuk kategorisasi."
+    },
+    "tech": ["Kotlin", "JavaScript", "Python", "GCP"],
+    "category": "Backend & Cloud",
+    "github_url": "https://github.com/MIHU-PROJECT",
+    "image": "/images/MIHU.png"
+  },
+  {
+    "id": "open-music-api",
+    "title": "OpenMusic API",
+    "description": {
+      "en": "A robust backend RESTful API built for a music platform. It handles complex features such as managing songs, albums, playlists, user authentication, and song exports.",
+      "id": "Backend RESTful API yang tangguh dibangun untuk platform musik. Mengelola fitur kompleks seperti lagu, album, playlist, autentikasi pengguna, dan ekspor lagu."
+    },
+    "tech": ["JavaScript", "Node.js", "Hapi", "PostgreSQL"],
+    "category": "Backend & Cloud",
+    "github_url": "https://github.com/wahyunugrahha/openmusic-api",
+    "image": "/images/OpenMusicAPI.png"
+  },
+  {
+    "id": "bimbingin",
+    "title": "Bimbing.in",
+    "description": {
+      "en": "Bimbing.in is a mobile learning app designed to offer a flexible and comprehensive learning experience for users looking to deepen their knowledge in technology and digital fields. The app provides video and text-based courses on subjects like UI/UX, mobile development, web development, digital marketing, and more.",
+      "id": "Bimbing.in adalah aplikasi pembelajaran mobile yang dirancang untuk menawarkan pengalaman belajar yang komprehensif bagi pengguna yang ingin memperdalam pengetahuan di bidang teknologi dan digital. Aplikasi ini menyediakan kursus berbasis video dan teks seperti UI/UX, pengembangan mobile, web, digital marketing, dan lainnya."
+    },
+    "tech": ["Figma", "UI/UX Design", "Prototyping"],
+    "category": "Web / Full Stack",
+    "github_url": null,
+    "figma_url": "https://www.figma.com/proto/s6RWiw1jx5JLDdiwRNHtPY/Dibimbing?node-id=47-815&t=ltgEaCdpHUpX0BnB-1&scaling=contain&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=47%3A815&show-proto-sidebar=1",
+    "image": "/images/Bimbingin.png"
+  },
+  {
+    "id": "tiketin",
+    "title": "TIKET.IN",
+    "description": {
+      "en": "TIKET.IN is an innovative mobile app that combines concert ticket purchasing with opportunities for charitable giving. Users can easily search for and buy tickets to various music events, both local and international, through a user-friendly interface that simplifies event browsing, seat selection, and payment.",
+      "id": "TIKET.IN adalah aplikasi mobile inovatif yang menggabungkan pembelian tiket konser dengan peluang amal. Pengguna dapat dengan mudah mencari dan membeli tiket ke berbagai acara musik melalui antarmuka ramah pengguna yang menyederhanakan penelusuran acara, pemilihan kursi, dan pembayaran."
+    },
+    "tech": ["Figma", "UI/UX Design", "Prototyping"],
+    "category": "Web / Full Stack",
+    "github_url": null,
+    "figma_url": "https://www.figma.com/proto/k6x2kuNBWpw1aHasoITDVU/Suitmedia-Submission?node-id=4-783&starting-point-node-id=4%3A810&t=K67JynxQ1RSBtmwq-1",
+    "image": "/images/Tiketin.png"
+  },
+  {
+    "id": "ween-studios",
+    "title": "Roblox Games (Ween Studios)",
+    "description": {
+      "en": "Led development and 3D design for Roblox games achieving over 1.9M+ total visits. Implemented Lua scripting and game monetization strategies.",
+      "id": "Memimpin pengembangan dan desain 3D untuk permainan Roblox yang mencapai lebih dari 1,9 Juta total kunjungan. Mengimplementasikan skrip Lua dan strategi monetisasi permainan."
+    },
+    "tech": ["Lua", "Roblox Studio", "3D Design"],
+    "category": "Game Dev",
+    "github_url": null,
+    "image": "/images/WeenStudios.png"
+  }
+]
