@@ -2,12 +2,12 @@
   <div class="relative min-h-screen text-ink font-sans antialiased bg-paper overflow-x-hidden flex flex-col transition-colors duration-300">
     <!-- N1 Nav: Wordmark + links + button -->
     <header class="w-full z-50 bg-paper border-b border-paper-2 animate-fade-in">
-      <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between relative">
         <NuxtLink to="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <img src="/images/Logo.png" alt="Wahyu Nugraha Logo" class="h-8 w-auto" />
         </NuxtLink>
         
-        <nav class="hidden md:flex items-center gap-8">
+        <nav class="hidden md:flex items-center gap-8 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <NuxtLink to="#projects" class="text-sm font-medium text-ink hover:text-accent-cyan transition-colors">{{ lang.navProjects }}</NuxtLink>
           <NuxtLink to="#about" class="text-sm font-medium text-ink hover:text-accent-cyan transition-colors">{{ lang.navAbout }}</NuxtLink>
           <NuxtLink to="#certifications" class="text-sm font-medium text-ink hover:text-accent-cyan transition-colors">{{ lang.navCertifications }}</NuxtLink>
