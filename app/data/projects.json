@@ -1,5 +1,26 @@
 [
   {
+    "id": "moneytracker",
+    "title": "MoneyTrack",
+    "description": {
+      "en": "A personal finance app for tracking money from one payday to the next. Record income, expenses and transfers between accounts, set budgets per category, automate recurring bills and salary, and read reports with insights written in plain sentences.\n\nBuilt as a full-stack Laravel 12 monolith (Livewire + Alpine.js + Tailwind CSS) on PostgreSQL, installable as a PWA, available in English and Indonesian, with light, dark and system themes.",
+      "id": "Aplikasi keuangan pribadi untuk memantau uang dari gajian ke gajian berikutnya. Catat pemasukan, pengeluaran dan transfer antar akun, atur budget per kategori, otomatiskan tagihan dan gaji rutin, serta baca laporan dengan insight yang ditulis dalam kalimat sederhana.\n\nDibangun sebagai monolith full-stack Laravel 12 (Livewire + Alpine.js + Tailwind CSS) dengan PostgreSQL, dapat diinstal sebagai PWA, tersedia dalam Bahasa Inggris dan Indonesia, dengan tema terang, gelap dan sistem."
+    },
+    "tech": ["PHP", "Laravel", "Livewire", "Alpine.js", "Tailwind CSS", "PostgreSQL"],
+    "category": "Web / Full Stack",
+    "github_url": "https://github.com/wahyunugrahha/MoneyTracker",
+    "image": "/images/MoneyTrackerMain.png",
+    "gallery": [
+      "/images/MoneyTrackerMain.png",
+      "/images/MoneyTrackerMobile1.png",
+      "/images/MoneyTrackerMobile2.png",
+      "/images/MoneyTrackerMobile3.png",
+      "/images/MoneyTrackerMobile4.png",
+      "/images/MoneyTrackerMobile5.png",
+      "/images/MoneyTrackerMobile6.png"
+    ]
+  },
+  {
     "id": "hris",
     "title": "HRIS (Without Payroll)",
     "description": {
@@ -19,10 +40,10 @@
     "id": "kasir-tcoy",
     "title": "Kasir TCOY",
     "description": {
-      "en": "A Point of Sale (POS) System for managing inventory and transactions.",
-      "id": "Sistem Point of Sale (POS) untuk mengelola inventaris dan transaksi."
+      "en": "A Point of Sale (POS) system built as a monorepo with a Laravel API backend and a Vue 3 frontend. It covers cashier checkout with split payment, promo codes, loyalty points, hold orders and an offline queue that syncs once the connection returns, plus shift settlement, billing, transaction history with void/refund behind manager PIN approval, and sales reports with native Excel export.\n\nIncludes role-based access (admin/cashier), inventory movement tracking, a public landing page, light/dark themes, and a bilingual UI (Indonesian/English).",
+      "id": "Aplikasi Point of Sale (POS) berbasis monorepo dengan backend API Laravel dan frontend Vue 3. Mencakup checkout kasir dengan split payment, kode promo, poin loyalitas, hold order dan mode offline yang otomatis tersinkron saat koneksi kembali, serta settlement shift, billing, riwayat transaksi dengan void/refund melalui approval PIN manager, dan laporan penjualan dengan export Excel native.\n\nDilengkapi hak akses berbasis role (admin/kasir), pencatatan pergerakan stok, landing page publik, tema terang/gelap, dan UI dwibahasa (Indonesia/Inggris)."
     },
-    "tech": ["PHP"],
+    "tech": ["PHP", "Laravel", "Vue.js", "Pinia", "Tailwind CSS", "PostgreSQL"],
     "category": "Web / Full Stack",
     "github_url": "https://github.com/wahyunugrahha/kasir-tcoy",
     "image": "/images/KasirTcuy.png"

@@ -370,7 +370,7 @@
             <h3 class="text-lg font-semibold text-ink mb-4">Project Gallery</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div v-for="(img, index) in selectedProject.gallery" :key="index" class="aspect-video rounded-card overflow-hidden bg-paper-2 border border-paper-2">
-                <img :src="img" :alt="`${selectedProject.title} screenshot ${index + 1}`" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img :src="img" :alt="`${selectedProject.title} screenshot ${index + 1}`" class="w-full h-full object-contain hover:scale-105 transition-transform duration-500" />
               </div>
             </div>
           </div>
