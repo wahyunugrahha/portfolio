@@ -24,16 +24,22 @@
     "id": "hris",
     "title": "HRIS (Without Payroll)",
     "description": {
-      "en": "A Human Resource Information System focused on employee data and management without the payroll module.\n\nThis is a project that has been deployed and is still running today at absenkusjp.com, which was my project during an internship.",
-      "id": "Sistem Informasi Sumber Daya Manusia (HRIS) yang difokuskan pada data dan manajemen karyawan tanpa modul penggajian.\n\nIni adalah project yang sudah dideploy dan terus berjalan hingga saat ini di absenkusjp.com yang dimana ini adalah project saya ketika intern."
+      "en": "A Human Resource Information System for attendance and employee administration, without the payroll module. It consists of two apps in one project: an admin panel for HR, branch admins and supervisors, and a mobile-first employee app.\n\nFeatures include clock-in/out with photo and location radius (with suspicious location detection), leave/permit/overtime/business trip requests with approval flows, daily KPI workbooks with supervisor appraisal, automatic and manual warning letters, attendance/overtime/KPI reports with Excel export, and role-based access per module with branch-level data restriction.\n\nThis project was my internship project, and it has been deployed and is still running today at absenkusjp.com.",
+      "id": "Sistem Informasi Sumber Daya Manusia (HRIS) untuk presensi dan administrasi karyawan, tanpa modul penggajian. Terdiri dari dua aplikasi dalam satu project: panel admin untuk HRD, admin cabang, dan atasan, serta aplikasi karyawan berbasis tampilan mobile.\n\nFitur meliputi absen masuk/pulang dengan foto dan radius lokasi (dengan deteksi lokasi janggal), pengajuan izin/cuti/lembur/dinas luar lengkap dengan alur persetujuan, workbook KPI harian dengan penilaian atasan, surat peringatan otomatis maupun manual, laporan presensi/lembur/KPI dengan export Excel, serta hak akses per modul dengan pembatasan data per cabang.\n\nIni adalah project saya ketika intern, yang sudah dideploy dan terus berjalan hingga saat ini di absenkusjp.com."
     },
-    "tech": ["PHP", "Blade", "Laravel"],
+    "tech": ["PHP", "Laravel", "Blade", "PostgreSQL", "Tailwind CSS", "Bootstrap"],
     "category": "Web / Full Stack",
     "github_url": "https://github.com/wahyunugrahha/hris-without-payroll",
-    "image": "/images/HRIS1.png",
+    "image": "/images/HRISWebDashboard.png",
     "gallery": [
-      "/images/HRIS1.png",
-      "/images/HRIS2.png"
+      "/images/HRISWebDashboard.png",
+      "/images/HRISWebDataKaryawan.png",
+      "/images/HRISWebPresensi.png",
+      "/images/HRISWebIzinCuti.png",
+      "/images/HRISMobile1Karyawan.png",
+      "/images/HRISMobile2Karyawan.png",
+      "/images/HRISMobile3Karyawan.png",
+      "/images/HRISMobile4Karyawan.png"
     ]
   },
   {
